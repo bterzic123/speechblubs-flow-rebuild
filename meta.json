@@ -1,0 +1,26 @@
+{
+  "scope": "flow",
+  "today": { "text": "the same “7 Days For Free” for every child, whatever the score", "source": "our_pass" },
+  "prices": { "monthly": "16,59 €", "yearly": "65,03 €", "trial": "7 days", "source": "their paywall on the Croatian App Store; the same storefront's listing (“Show of Support – Annual”)" },
+  "asks": [
+    "Approximately how many words can Jane say?",
+    "Do you think Jane recognizes words for familiar everyday objects like “bottle” or “teddy”?",
+    "Does Jane use names for family members or favorite people like “mama” or “grandpa”?",
+    "Does Jane try to put two words together like “more juice” or “bye mommy”?",
+    "How can Speech Blubs help Jane?"
+  ],
+  "paywall": { "headline": "7 Days For Free", "uses_answers": false },
+  "rebuild": "the paywall names the child, the score and the goals, adds your yearly plan and your best proof",
+  "flows": [
+    { "channel": "Meta", "paywall_opens_on": "Leo’s own score", "note": "First words arrives pre-ticked" },
+    { "channel": "Meta", "paywall_opens_on": "her plan, kid-safe and ad-free", "note": "Vocabulary arrives pre-ticked" },
+    { "channel": "App Store", "paywall_opens_on": "92.3 in 4 months", "note": "Jane from the recording: 71.2 today, 92.3 in 4 months" }
+  ],
+  "ideas": [
+    { "n": 1, "title": "Put the child’s score and goals on the paywall", "screen": "Paywall", "outcome": "CR +15–20%" },
+    { "n": 2, "title": "Ask for notifications after the trial starts, not before welcome", "screen": "Reminder", "outcome": "CR +10–15%" },
+    { "n": 3, "title": "Make “Calculating results…” read the answers back", "screen": "Calculating", "outcome": "CR +10–15%" },
+    { "n": 4, "title": "Show the yearly plan you already sell", "screen": "Paywall", "outcome": "ARPU +10–15%" },
+    { "n": 5, "title": "Bring your strongest proof to the paywall, with one rating", "screen": "Paywall", "outcome": "CR +10–15%" }
+  ]
+}
